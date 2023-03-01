@@ -96,9 +96,9 @@ console.log( FLOAT16_SMALLEST_SUBNORMAL );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/float16/smallest-normal`][@stdlib/constants/float16/smallest-normal]</span><span class="delimiter">: </span><span class="description">smallest positive normalized half-precision floating-point number.</span>
--   <span class="package-name">[`@stdlib/constants/float32/smallest-subnormal`][@stdlib/constants/float32/smallest-subnormal]</span><span class="delimiter">: </span><span class="description">smallest positive single-precision floating-point subnormal number.</span>
--   <span class="package-name">[`@stdlib/constants/float64/smallest-subnormal`][@stdlib/constants/float64/smallest-subnormal]</span><span class="delimiter">: </span><span class="description">smallest positive double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/constants-float16/smallest-normal`][@stdlib/constants/float16/smallest-normal]</span><span class="delimiter">: </span><span class="description">smallest positive normalized half-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/constants-float32/smallest-subnormal`][@stdlib/constants/float32/smallest-subnormal]</span><span class="delimiter">: </span><span class="description">smallest positive single-precision floating-point subnormal number.</span>
+-   <span class="package-name">[`@stdlib/constants-float64/smallest-subnormal`][@stdlib/constants/float64/smallest-subnormal]</span><span class="delimiter">: </span><span class="description">smallest positive double-precision floating-point number.</span>
 
 </section>
 
