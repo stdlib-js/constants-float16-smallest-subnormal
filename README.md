@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT16_SMALLEST_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-subnormal@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-smallest-subnormal/tags). For example,
+
+```javascript
 import FLOAT16_SMALLEST_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-subnormal@v0.1.0-deno/mod.js';
 ```
 
@@ -73,7 +78,7 @@ var bool = ( FLOAT16_SMALLEST_SUBNORMAL === 5.960464477539063e-8 );
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT16_SMALLEST_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-subnormal@v0.1.0-deno/mod.js';
+import FLOAT16_SMALLEST_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-subnormal@deno/mod.js';
 
 console.log( FLOAT16_SMALLEST_SUBNORMAL );
 // => 5.960464477539063e-8
