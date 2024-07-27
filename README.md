@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT16_SMALLEST_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-subnormal@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-smallest-subnormal/tags). For example,
+
+```javascript
 import FLOAT16_SMALLEST_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-subnormal@v0.2.2-esm/index.mjs';
 ```
 
@@ -78,7 +83,7 @@ var bool = ( FLOAT16_SMALLEST_SUBNORMAL === 5.960464477539063e-8 );
 <body>
 <script type="module">
 
-import FLOAT16_SMALLEST_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-subnormal@v0.2.2-esm/index.mjs';
+import FLOAT16_SMALLEST_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-smallest-subnormal@esm/index.mjs';
 
 console.log( FLOAT16_SMALLEST_SUBNORMAL );
 // => 5.960464477539063e-8
